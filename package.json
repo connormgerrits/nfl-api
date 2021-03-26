@@ -1,0 +1,27 @@
+{
+  "name": "nfl-api",
+  "version": "1.0.0",
+  "description": "In the initial commit to this project, you have been provided data about NFL teams. Over the course of the next couple of classes we will use this data to build up a REST API. These exercises will be completed in class.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connormgerrits/nfl-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connormgerrits/nfl-api/issues"
+  },
+  "homepage": "https://github.com/connormgerrits/nfl-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "nodemon": "^2.0.7"
+  }
+}
