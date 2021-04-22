@@ -9,4 +9,4 @@ const teamsModel = (connection, Sequelize) => {
     }, { paranoid: true })
 }
 
-module.exports = teamsModel
+module.exports = { teamsModel }

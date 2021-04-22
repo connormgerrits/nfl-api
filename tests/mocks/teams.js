@@ -1,4 +1,4 @@
-const teams = [{
+const teamsList = [{
   id: 1,
   location: 'Buffalo',
   mascot: 'Bills',
@@ -224,4 +224,21 @@ const teams = [{
   division: 'West'
 }]
 
-module.exports = teams
+const singleTeam = {
+  id: 33,
+  location: 'Not Seattle',
+  mascot: 'Groundhawks',
+  abbreviation: 'SEE',
+  conference: 'NFC',
+  division: 'East'
+}
+
+const newTeam = {
+  location: 'Mars',
+  mascot: 'Sand',
+  abbreviation: 'MARS',
+  conference: 'NFC',
+  division: 'East'
+}
+
+module.exports = { teamsList, singleTeam, newTeam }

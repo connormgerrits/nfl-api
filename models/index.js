@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const teamsModel = require('./teams')
+const { teamsModel } = require('./teams')
 
 const connection = new Sequelize('nfl', 'nfl', 'nFLt3Am5', {
     host: 'localhost', dialect: 'mysql', port: 3306,

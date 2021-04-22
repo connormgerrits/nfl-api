@@ -16,13 +16,13 @@ let getTeamById = async (request, response) => {
 }
 
 let saveNewTeam = async (request, response) => {
-    let { id, location, mascot, abbreviation, conference, division } = request.body
+    let { location, mascot, abbreviation, conference, division } = request.body
 
     if (!location || !mascot || !abbreviation || !conference || !division) {
         return response.status(400).send('The data object you entered is invalid and may be missing data for some elements.')
     }
 
-    const newTeam = await models.Teams.create({ id, location, mascot, abbreviation, conference, division })
+    const newTeam = await models.Teams.create({ location, mascot, abbreviation, conference, division })
 
     return response.status(201).send(newTeam)
 }
