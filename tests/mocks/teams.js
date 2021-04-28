@@ -241,4 +241,11 @@ const newTeam = {
   division: 'East'
 }
 
-module.exports = { teamsList, singleTeam, newTeam }
+const errTeam = {
+  mascot: 'Sand',
+  abbreviation: 'MARS',
+  conference: 'NFC',
+  division: 'East'
+}
+
+module.exports = { teamsList, singleTeam, newTeam, errTeam }
